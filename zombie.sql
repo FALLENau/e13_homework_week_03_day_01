@@ -44,4 +44,6 @@ INSERT INTO bitings (victim_id, zombie_id) VALUES (3, 2);
 
 INSERT INTO bitings (victim_id, zombie_id) VALUES (4, 1);
 
-SELECT * FROM bitings;
+-- SELECT * FROM bitings;
+
+SELECT * FROM zombies WHERE name = 'Jarrod';
