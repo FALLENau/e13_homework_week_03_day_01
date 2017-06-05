@@ -51,8 +51,37 @@ INSERT INTO movies (title, year, show_time) VALUES ('Ant-Man', 2015, '19:15');
 INSERT INTO movies (title, year, show_time) VALUES ('Captain America: Civil War', 2016, '12:35');
 INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '21:30');
 
+
+--
+-- SELECT name FROM people;
+--
+-- UPDATE people SET name = 'James Cox' WHERE name = 'Jasmse Cox';
+--
+-- SELECT * FROM people;
+--
+-- SELECT name FROM people WHERE name = 'Reece Jones';
+--
+-- DELETE FROM movies WHERE title = 'Batman Begins';
+--
+-- SELECT * FROM movies;
+
+-- INSERT INTO people (name) VALUES ('Jarrod');
+--
+-- DELETE FROM people WHERE name = 'Winston Ingram';
+
+-- SELECT * FROM people WHERE name = 'Fred';
+--
+-- UPDATE people SET name = 'Jack Jarvis' WHERE id = 9;
+-- UPDATE people SET name = 'Victor McDade' WHERE id = 13;
+--
+-- SELECT * FROM zombies WHERE name = 'Jarrod';
+--
+-- SELECT victim_id FROM bitings WHERE zombie_id = 1;
+--
+
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
+
+UPDATE movies SET show_time = '12:30' WHERE title = 'Guardians of the Galaxy'; 
+
 SELECT * FROM movies;
-
-UPDATE people SET name = 'James Cox' WHERE name = 'Jasmse Cox';
-
-SELECT * FROM people;
+-- SELECT * FROM people;
